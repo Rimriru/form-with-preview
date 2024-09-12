@@ -1,0 +1,51 @@
+@import './base.css';
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../vendor/fonts/Montserrat-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../vendor/fonts/Montserrat-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../vendor/fonts/Montserrat-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+#app {
+  font-weight: normal;
+  margin: 0 auto;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  max-width: 616px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.heading {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+@media (hover: hover) {
+  a:not(:has(img)):hover,
+  button:hover {
+    opacity: 0.8;
+  }
+}
